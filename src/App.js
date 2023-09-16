@@ -8,14 +8,6 @@ import MovieCard from './Components/MovieCard';
 
 const API_URL = 'http://www.omdbapi.com?apikey=66177250';
 
-const movie1 = {
-    "Title": "Superman/Batman: Apocalypse",
-    "Year": "2010",
-    "imdbID": "tt1673430",
-    "Type": "movie",
-    "Poster": "https://m.media-amazon.com/images/M/MV5BMjk3ODhmNjgtZjllOC00ZWZjLTkwYzQtNzc1Y2ZhMjY2ODE0XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
-}
-
 const App = () => {
 
     const [movies, setMovies] = useState([]);
